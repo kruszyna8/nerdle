@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "f23xUGza8aglny7LVC5K6m/1sUHNAZj86ynHDCxLbdo=",
+  "Source": "NerdleWebApi",
+  "BasePath": "_content/NerdleWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

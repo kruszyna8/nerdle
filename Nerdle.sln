@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdleWebApi", "NerdleWebApi\NerdleWebApi.csproj", "{ADEA7BE6-85BF-4E42-A296-045A030A9981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdleTests", "NerdleTests\NerdleTests.csproj", "{90AE6602-000B-4EA8-8A73-4B3C8D76001A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEA7BE6-85BF-4E42-A296-045A030A9981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEA7BE6-85BF-4E42-A296-045A030A9981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEA7BE6-85BF-4E42-A296-045A030A9981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEA7BE6-85BF-4E42-A296-045A030A9981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AE6602-000B-4EA8-8A73-4B3C8D76001A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AE6602-000B-4EA8-8A73-4B3C8D76001A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AE6602-000B-4EA8-8A73-4B3C8D76001A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AE6602-000B-4EA8-8A73-4B3C8D76001A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

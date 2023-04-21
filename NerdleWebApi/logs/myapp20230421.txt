@@ -1,0 +1,50 @@
+2023-04-21 17:49:36.345 +02:00 [INF] StartNewUserGame id: 1 called with parameter: id: 1
+2023-04-21 17:49:36.396 +02:00 [DBG] StartNewUserGame id: 1 called StartGame method with parameter: id: 1
+2023-04-21 17:49:44.443 +02:00 [INF] GetExpressionValidation called with parameter expression: 11+11=22
+2023-04-21 17:49:44.445 +02:00 [INF] GetExpressionValidation called IsCorrectInput method with parameter: expression 11+11=22
+2023-04-21 17:49:44.453 +02:00 [INF] GetExpressionValidation got response from IsCorrectInput: IsCorrectTrue, Message: Everything is good!
+2023-04-21 17:49:44.530 +02:00 [INF] GetExpressionResponse id: 1 called with parameters: expression: 11+11=22, id: 1
+2023-04-21 17:49:44.532 +02:00 [DBG] GetExpressionResponse id: 1 called MakeResponse method with parameters: expression 11+11=22, id: 1
+2023-04-21 17:49:44.536 +02:00 [DBG] GetExpressionResponse id: 1 got response from MakeResponse: response: bbbbbvvb
+2023-04-21 20:28:46.162 +02:00 [INF] StartNewUserGame id: 1 called with parameter: id: 1
+2023-04-21 20:28:46.196 +02:00 [DBG] StartNewUserGame id: 1 called StartGame method with parameter: id: 1
+2023-04-21 20:28:55.789 +02:00 [INF] GetExpressionValidation called with parameter expression: 11+11=23
+2023-04-21 20:28:55.793 +02:00 [INF] GetExpressionValidation called IsCorrectInput method with parameter: expression 11+11=23
+2023-04-21 20:28:55.799 +02:00 [INF] GetExpressionValidation got response from IsCorrectInput: IsCorrectFalse, Message: Left side of equation doesn't equal right side!
+2023-04-21 20:29:00.406 +02:00 [INF] GetExpressionValidation called with parameter expression: 11+11=22
+2023-04-21 20:29:00.408 +02:00 [INF] GetExpressionValidation called IsCorrectInput method with parameter: expression 11+11=22
+2023-04-21 20:29:00.411 +02:00 [INF] GetExpressionValidation got response from IsCorrectInput: IsCorrectTrue, Message: Everything is good!
+2023-04-21 20:29:00.421 +02:00 [INF] GetExpressionResponse id: 1 called with parameters: expression: 11+11=22, id: 1
+2023-04-21 20:29:00.424 +02:00 [DBG] GetExpressionResponse id: 1 called MakeResponse method with parameters: expression 11+11=22, id: 1
+2023-04-21 20:29:00.427 +02:00 [DBG] GetExpressionResponse id: 1 got response from MakeResponse: response: vbvbbgbb
+2023-04-21 20:29:22.924 +02:00 [INF] StartNewComputerGame id: 1 called with parameter: id: 1
+2023-04-21 20:29:22.925 +02:00 [DBG] StartNewComputerGame id: 1 called StartGame method with parameter: id: 1
+2023-04-21 20:30:08.836 +02:00 [INF] GetResponse called with parameters: response: bbbbbgbb, id: 1
+2023-04-21 20:30:08.837 +02:00 [DBG] GetResponse id: 1 called UpdateData with parameters: response:bbbbbgbb, lastGuess9+8-7=10
+2023-04-21 20:30:08.849 +02:00 [DBG] GetResponse id: 1 called MakeGuess with paremater: id1
+2023-04-21 20:30:08.852 +02:00 [DBG] GetResponse id: 1 get response from MakeGuess: ExpressionFound: True, Response: 2*2*6=24
+2023-04-21 20:30:14.761 +02:00 [INF] StartNewComputerGame id: 2 called with parameter: id: 2
+2023-04-21 20:30:14.767 +02:00 [DBG] StartNewComputerGame id: 2 called StartGame method with parameter: id: 2
+2023-04-21 20:30:19.124 +02:00 [INF] GetResponse called with parameters: response: gbbbbgbb, id: 1
+2023-04-21 20:30:19.126 +02:00 [DBG] GetResponse id: 1 called UpdateData with parameters: response:gbbbbgbb, lastGuess2*2*6=24
+2023-04-21 20:30:19.129 +02:00 [DBG] GetResponse id: 1 called MakeGuess with paremater: id1
+2023-04-21 20:30:19.130 +02:00 [DBG] GetResponse id: 1 get response from MakeGuess: ExpressionFound: False, Response: I believe there is no correct answer
+2023-04-21 20:30:26.439 +02:00 [INF] GetResponse called with parameters: response: gbbbbgbb, id: 2
+2023-04-21 20:30:26.443 +02:00 [DBG] GetResponse id: 2 called UpdateData with parameters: response:gbbbbgbb, lastGuess9+8-7=10
+2023-04-21 20:30:26.450 +02:00 [DBG] GetResponse id: 2 called MakeGuess with paremater: id2
+2023-04-21 20:30:26.451 +02:00 [DBG] GetResponse id: 2 get response from MakeGuess: ExpressionFound: True, Response: 9*2*2=36
+2023-04-21 22:27:21.397 +02:00 [INF] GetExpressionValidation called with parameter expression: 000000=0
+2023-04-21 22:27:21.447 +02:00 [INF] GetExpressionValidation called IsCorrectInput method with parameter: expression 000000=0
+2023-04-21 22:27:21.452 +02:00 [INF] GetExpressionValidation got response from IsCorrectInput: IsCorrectTrue, Message: Everything is good!
+2023-04-21 22:43:57.560 +02:00 [INF] StartNewComputerGame id: 1 called with parameter: id: 1
+2023-04-21 22:43:57.601 +02:00 [DBG] StartNewComputerGame id: 1 called StartGame method with parameter: id: 1
+2023-04-21 22:43:59.371 +02:00 [INF] StartNewComputerGame id: 2 called with parameter: id: 2
+2023-04-21 22:43:59.372 +02:00 [DBG] StartNewComputerGame id: 2 called StartGame method with parameter: id: 2
+2023-04-21 22:44:04.632 +02:00 [INF] GetResponse called with parameters: response: bbbbbgbb, id: 2
+2023-04-21 22:44:04.646 +02:00 [DBG] GetResponse id: 2 called UpdateData with parameters: response:bbbbbgbb, lastGuess9+8-7=10
+2023-04-21 22:44:04.670 +02:00 [DBG] GetResponse id: 2 called MakeGuess with paremater: id 2
+2023-04-21 22:44:04.688 +02:00 [DBG] GetResponse id: 2 get response from MakeGuess: ExpressionFound: True, Response: 2*2*6=24
+2023-04-21 22:44:10.878 +02:00 [INF] GetResponse called with parameters: response: gbbbbgbb, id: 1
+2023-04-21 22:44:10.881 +02:00 [DBG] GetResponse id: 1 called UpdateData with parameters: response:gbbbbgbb, lastGuess9+8-7=10
+2023-04-21 22:44:10.897 +02:00 [DBG] GetResponse id: 1 called MakeGuess with paremater: id 1
+2023-04-21 22:44:10.904 +02:00 [DBG] GetResponse id: 1 get response from MakeGuess: ExpressionFound: True, Response: 9*2*2=36
